@@ -1,0 +1,10 @@
+<%= form_for(@user) do |f| %>
+  <%= render "shared/error_messages" , model: @user %>
+  <%= f.label :email %>
+  <%= f.email_field :email, class: "form-control" %>
+  <%= f.label :password %>
+  <%= f.password_field :password, class: "form-control" %>
+  <%= f.label :password_confirmation, "Confirm password" %>
+  <%= f.password_field :password_confirmation, class: "form-control" %>
+  <%= f.submit label, class: "form-control btn btn-primary" %>
+<%- end %>

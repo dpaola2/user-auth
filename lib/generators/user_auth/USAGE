@@ -1,0 +1,8 @@
+Description:
+    Explain the generator
+
+Example:
+    rails generate user_auth Thing
+
+    This will create:
+        what/will/it/create
