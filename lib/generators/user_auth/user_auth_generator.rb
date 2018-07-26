@@ -3,7 +3,7 @@ class UserAuthGenerator < Rails::Generators::Base
 
   def perform
     gem "bcrypt"
-
+    run 'bundle install'
     routes.each do |r|
       route r
     end
