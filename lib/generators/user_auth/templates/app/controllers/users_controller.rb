@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  include SessionsHelper
   before_action :authenticate!, except: [:new, :create]
 
   def show
