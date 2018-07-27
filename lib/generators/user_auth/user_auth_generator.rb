@@ -28,7 +28,8 @@ class UserAuthGenerator < Rails::Generators::Base
       "app/views/users/_form.html.erb",
       "app/views/users/edit.html.erb",
       "app/views/users/show.html.erb",
-      "app/views/users/new.html.erb"
+      "app/views/users/new.html.erb",
+      "app/views/shared/_error_messages.html.erb"
     ]
   end
 
