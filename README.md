@@ -1,6 +1,12 @@
 # User Auth for Rails (rapid prototyping)
 
+## Why use this instead of Devise?
+
+Devise is fast to get up and running but confusing and clunky to customize in the long term. Instead, this approach gives you generated code that you can then customize to your project's unique requirements.
+
 ## What you get
+
+Generated code:
 
 - User model and migration, w/ hashed password using `bcrypt` and "remember me" functionality
 - Controllers, Views, and Helpers for signing up, logging in and out, and changing your password
